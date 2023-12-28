@@ -12,11 +12,25 @@ body{
     height: 50px;
 }
 
+.main{
+    margin: 20px auto;
+}
+
+.navbar-brand ,.nav-link{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
 .navbar{
     position: sticky;
     top: 0px;
     left: 0px;
+    background-color: black;
 }
+
 
 section{
     background-color: rgb(0, 0, 0,30%);
@@ -122,6 +136,3 @@ section{
 span a{
     padding: 10px;
 }
-
-
-
