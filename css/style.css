@@ -19,6 +19,10 @@ body{
     background-color: black;
 }
 
+.upper-img{
+    margin: 20px auto;
+}
+
 .navbar-brand ,.nav-link{
     color: white;
 }
@@ -80,27 +84,37 @@ section{
     color :white;
 }
 
-/* .templets{
+.templets{
     margin-top: 50px;
-    background-image: url(pics/8.jpg);
+    /* background-image: url(pics/8.jpg); */
     background-size: 100% 100%;
     color: rgb(255, 255, 255);
+    /* background-color: rgba(255, 0, 0, 0.468); */
 }
 
 .templets2{
     margin-top: 50px;
-    background-image: url(pics/9.jpg);
+    /* background-image: url(pics/9.jpg); */
     background-size: 100% 100%;
     color: white;
+    /* background-color: rgba(255, 0, 0, 0.434); */
 }
 
 .templets3{
     margin-top: 50px;
-    background-image: url(pics/10.jpg);
+    /* background-image: url(pics/2.jpg); */
     background-size: 100% 100%;
     object-fit: contain;
     color: white;
-} */
+    /* background-color: rgba(255, 0, 0, 0.438); */
+} 
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
 
 .image{
     /* width: 90%; */
